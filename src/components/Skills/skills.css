@@ -1,0 +1,31 @@
+.charts{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    flex: 3;
+    position: relative;
+}
+.skills-container{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    position: relative;
+    margin:  auto;
+    overflow-x: scroll;
+}
+.skills-container::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+/* ::-webkit-scrollbar-thumb {
+    background: black;
+} */
+.skills-box{
+    margin: 4rem;
+    padding: 2rem;
+    border-radius: 4rem;
+    background-color: antiquewhite;
+    text-align: center;
+    overflow: hidden;
+}
