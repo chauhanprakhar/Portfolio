@@ -6,7 +6,7 @@ function Projects() {
         <div id="projects">
            <div className="outer-container">
                <div style={{textAlign:'center'}}>
-               <h1>Projects</h1>
+               <h1 style={{color:'brown'}}>Projects</h1>
                </div>
                <div className="column-container">
                    <div className="row-container">
@@ -22,7 +22,7 @@ function Projects() {
                       <p>Libraries: React,Express,Mongoose On Javascript</p>
                       <br></br>
                       <p>Backend: NodeJS</p>
-                      <br></br>
+                    
                       <p>Database: MongoDB</p>
 		            </div>
 		            <div className="back">
@@ -72,7 +72,7 @@ function Projects() {
                      <div className="flip-container">
 	                 <div className="flipper" ontouchstart="this.classList.toggle('hover');">
                     <div className="front">
-                      <h1>Multiclient Chat Application</h1>
+                      <h1>Multiclient Application</h1>
                       <br></br>
                       <hr></hr>
                       <p>Language:- JAVA</p>

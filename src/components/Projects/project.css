@@ -57,14 +57,14 @@
     
     top: 0;
     color: bisque;
-    background-color:black;
+    background-color:brown;
       left: 0;
   }
   .front {
     backface-visibility: hidden;
    position: absolute;
     color: bisque;
-    background-color: black;
+    background-color: brown;
       top: 0;
       left: 0;
   }
